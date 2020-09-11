@@ -751,9 +751,9 @@ es-module-lexer@^0.3.18:
   integrity sha1-JKGry5xdyWkjqOQr4DO4AfeI3gY=
 
 esbuild@^0.6.10:
-  version "0.6.33"
-  resolved "https://registry.npm.taobao.org/esbuild/download/esbuild-0.6.33.tgz?cache=0&sync_timestamp=1599625351979&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fesbuild%2Fdownload%2Fesbuild-0.6.33.tgz#13504da1a582b892ae37ea303566d9f419e5a70e"
-  integrity sha1-E1BNoaWCuJKuN+owNWbZ9Bnlpw4=
+  version "0.6.34"
+  resolved "https://registry.npm.taobao.org/esbuild/download/esbuild-0.6.34.tgz#76565a60e006f45d5f273b6e59e61ed0816551f5"
+  integrity sha1-dlZaYOAG9F1fJztuWeYe0IFlUfU=
 
 escape-html@^1.0.3:
   version "1.0.3"
@@ -1207,9 +1207,9 @@ koa-compose@^3.0.0:
     any-promise "^1.1.0"
 
 koa-compose@^4.1.0:
-  version "4.2.0"
-  resolved "https://registry.npm.taobao.org/koa-compose/download/koa-compose-4.2.0.tgz#d8ed38edd18ed4122202bfcab3fd568b855a6328"
-  integrity sha1-2O047dGO1BIiAr/Ks/1Wi4VaYyg=
+  version "4.1.0"
+  resolved "https://registry.npm.taobao.org/koa-compose/download/koa-compose-4.1.0.tgz#507306b9371901db41121c812e923d0d67d3e877"
+  integrity sha1-UHMGuTcZAdtBEhyBLpI9DWfT6Hc=
 
 koa-conditional-get@^2.0.0:
   version "2.0.0"
