@@ -1,15 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Vite" />
+  <div>
+    Vue3.0
+    <h1>x: {{position}}</h1>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { reactive } from 'vue'
+// import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  setup(){
+    //reactive 把一个数据模型加工为一个响应式的数据模型
+    const position = reactive({})
+
+    window.addEventListener('mousemovw',(e)=>{
+      position.x = e.pageX
+      position.y = e.pageY
+    })
+
+    return ({position})
   }
 }
 </script>
